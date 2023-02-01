@@ -1,0 +1,81 @@
+/* definicion de colores */
+:root{
+    --white-color: white;
+    --black-color: #000000;
+    --darkPurple-color: #41415b;
+    --mediumPurple-color:#5a4c59;
+    --medium-color:#8b7e75;
+    --cream-color:#e7dfdb;
+    --gold-color:#b78838;
+    --fontFamily: 'Poppins';
+  
+  }
+
+  /* header */
+nav{
+    background-color:  #41415b;
+}
+
+.overP:hover {
+    color: #000 !important;
+    background-color: var(--mediumPurple-color);
+  }
+
+a{
+    text-decoration: none;
+}
+
+
+.logo {
+    margin-top: 0.8%;
+    width: 130px;
+    height: auto;
+    margin-left: 10px;
+}
+
+/* .navbar-collapse { 
+    text-align: center; 
+
+} */
+
+#navbarSupportedContent {
+    text-align: center;
+
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+
+.footer{
+    background-color:  #41415b;
+}
+
+.fP1{
+    display: flex;
+  justify-content: center;
+}
+
+.social{
+    width: 60px !important;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+svg{
+    fill: var(--gold-color);
+}
+
+.tlf{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px !important;
+}
+
+.fb{
+    width: 45px!important;
+}
