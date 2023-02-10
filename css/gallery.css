@@ -14,3 +14,13 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.imgAmp{
+    display:block;
+    margin:auto;
+    width: 70%;
+}
+
+.closed{
+    background-color: red;
+}
