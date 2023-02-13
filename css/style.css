@@ -17,8 +17,7 @@ nav{
 }
 
 .overP:hover {
-    color: #000 !important;
-    background-color: var(--mediumPurple-color);
+    background-color: var(--gold-color);
   }
 
 a{

@@ -1,0 +1,74 @@
+
+---Punto 1
+1.1.1 Contenido sin texto = Proporcione alternativas de texto para el contenido sin texto que tenga el mismo propósito.
+
+1.2.1 Solo audio y solo video (pregrabado) = Proporcione una alternativa al contenido de solo video y solo audio.
+
+1.2.2 Subtítulos (pregrabados) = Proporcione subtítulos para videos con audio.
+
+1.2.3 Descripción de audio o alternativa de medios (pregrabados) = Proporcione una descripción de audio o una transcripción de texto para videos con sonido.
+
+1.3.1 Información y relaciones = El contenido, la estructura y las relaciones se pueden determinar mediante programación.
+
+1.3.2 Secuencia significativa = Presente el contenido en un orden significativo.
+
+1.3.3 Características sensoriales = Las instrucciones no se basan únicamente en las características sensoriales.
+
+1.4.1 Uso del color = No utilice una presentación que se base únicamente en el color.
+
+1.4.2 Control de audio = No reproduzca audio automáticamente.
+
+
+---Punto 2
+2.1.1 Teclado Se puede acceder a todas las funciones mediante el teclado sin tiempos específicos.
+
+2.1.2 Sin captura de teclado Los usuarios pueden navegar hacia y desde todo el contenido usando un teclado.
+
+2.1.4 Accesos directos de teclas de caracteres Permite a los usuarios desactivar o reasignar accesos directos de caracteres de una sola tecla.
+
+2.2.1 Temporización ajustable Proporcione controles de usuario para apagar, ajustar o ampliar los límites de tiempo.
+
+2.2.2 Pausar, detener, ocultar Proporcione controles de usuario para pausar, detener y ocultar contenido en movimiento y actualización automática.
+
+2.3.1 Tres parpadeos o por debajo del umbral Ningún contenido parpadea más de tres veces por segundo.
+
+2.4.1 Omitir bloques Proporcione una forma para que los usuarios omitan bloques repetidos de contenido.
+
+2.4.2 Título de página Use títulos de página útiles y claros.
+
+2.4.3 Orden de enfoque Los componentes reciben el enfoque en una secuencia lógica.
+
+2.4.4 Propósito del enlace (en contexto) El propósito de cada enlace es claro a partir de su texto o contexto.
+
+2.4.7 Enfoque visible El enfoque del teclado es visible cuando se usa.
+
+2.4.3 Navegación de saltos de página Proporcione una forma de navegar entre los localizadores de saltos de página.
+
+2.5.1 Gestos de puntero Los gestos multipunto y basados ​​en rutas se pueden operar con un solo puntero.
+
+2.5.2 Las funciones de cancelación de puntero no se completan al hacer clic hacia abajo en un puntero.
+
+2.5.3 Etiqueta en el nombre Cuando un componente tiene una etiqueta de texto, el nombre del componente también contiene el texto que se muestra.
+
+2.5.4 Actuación de movimiento Las funciones operadas por movimiento también se pueden operar a través de una interfaz y se puede desactivar la respuesta al movimiento.
+
+
+
+---Punto 3
+3.1.1 Idioma de la página Cada página web tiene asignado un idioma humano predeterminado.
+
+3.2.1 En el foco Los elementos no cambian cuando reciben el foco.
+
+3.2.2 En Entrada Los elementos no cambian cuando reciben entrada.
+
+3.2.6 Ayuda coherente Las opciones de ayuda se presentan en el mismo orden.
+
+3.3.1 Identificación de errores identificar y describir los errores de entrada para los usuarios.
+
+3.3.2 Etiquetas o instrucciones Proporcione etiquetas o instrucciones para la entrada del usuario.
+
+
+---Punto 4
+4.1.1 Análisis Sin errores de código importantes
+
+4.1.2 Nombre, Rol, Valor Crear todos los elementos para la accesibilidad
