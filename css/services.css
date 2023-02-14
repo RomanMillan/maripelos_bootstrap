@@ -12,6 +12,10 @@
   
   }
 
+h1{
+  text-align: center;
+}
+
 table {
     background: var(--beige-color) !important;
     border-collapse: separate !important;
