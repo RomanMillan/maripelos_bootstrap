@@ -10,10 +10,6 @@
     --fontFamily: 'Poppins';
   
   }
-/* 
-  *, ::after, ::before{
-      box-sizing: content-box !important;
-  } */
 
 html,body{
     font-family: var(--fontFamily);
@@ -42,6 +38,11 @@ h3{
 .d-md-none{
     display: none;
 }
+
+@media (max-width:981){
+    
+}
+
 
 .barLeft{
     margin-top: 2.0rem;
