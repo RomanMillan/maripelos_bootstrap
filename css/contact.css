@@ -1,8 +1,131 @@
+/* definición de colores */
+:root{
+    --white-color: white;
+    --black-color: #000000;
+    --darkPurple-color: #41415b;
+    --mediumPurple-color:#5a4c59;
+    --medium-color:#8b7e75;
+    --cream-color:#e7dfdb;
+    --gold-color:#b78838;
+    --fontFamily: 'Poppins';
+  
+  }
 
-.leftCol{
-    background-color: rgb(121, 184, 163) ;
+
+/* LATERAL */
+
+.leftCol {
+    background-color: var(--mediumPurple-color);
+    margin-top: 1.5rem;
+    margin-right: 1.0rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    color: var(--cream-color);
+    font-size: 1.6rem;
+}
+.rowLeft{
+    margin-bottom: 2.0rem;
 }
 
-.mainCol{
-    background-color: aqua;
+.margLeftCol{
+    margin: 0.5rem;
 }
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: var(--gold-color);
+}
+
+iframe{
+    text-align: center;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+/* END LATERAL */
+
+
+/* PRINCIPAL */
+
+.mainCol {
+   /*  background-color: aqua; */
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+}
+.marMainRow{
+margin: 0.5rem;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 3.0rem;
+    margin-top: 0.7rem;
+    color: var(--mediumPurple-color);
+}
+
+label{
+    font-size: 1.4rem;
+    color: var(--mediumPurple-color);
+
+}
+
+input{
+    width: 100%;
+    height: 2.4rem;
+    /* max-width: 600px; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0.5rem;
+    margin-bottom: 0.7rem;
+    background-color: var(--cream-color);
+    box-sizing: border-box;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    outline: none;
+}
+
+input:focus {
+    border: 4px solid var(--gold-color);
+  }
+
+textarea {
+    width: 100%;
+    /* max-width: 600px; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    margin-bottom: 0.7rem;
+    background-color: var(--cream-color);
+}
+
+button {
+    width: 100%;
+    height: 4.0rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0.5rem;
+    margin-bottom: 0.7rem;
+    color: var(--cream-color);
+    background-color: var(--gold-color);
+    font-size: 1.7rem;
+}
+
+::placeholder{
+    font-size: 1.2rem !important;
+    margin-left: 1.5rem !important;
+}
+
+/* END PRINCIPAL */
