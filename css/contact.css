@@ -20,7 +20,7 @@
     margin-right: 1.0rem;
     margin-bottom: 1.5rem;
     border-radius: 0.5rem;
-    color: var(--cream-color);
+    color: #FFFFFF;
     font-size: 1.6rem;
 }
 .rowLeft{
@@ -105,7 +105,44 @@ textarea {
     border-radius: 0.5rem;
     margin-bottom: 0.7rem;
     background-color: var(--cream-color);
+    box-sizing: border-box;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    outline: none;
 }
+
+textarea:focus{
+    border: 4px solid var(--gold-color);
+}
+
+.form-input-error{
+    font-size: 0.9rem;
+    color: red;
+    display: none;
+}
+
+.form-input-error-actived{
+    display: block;
+}
+
+.form-group-valid .form-label{
+    color: green;
+}
+
+.form-group-valid .form-input{
+    border:4px solid green;
+}
+
+
+.form-group-invalid .form-label{
+    color: red;
+}
+
+.form-group-invalid .form-input{
+    border: red;
+}
+
+
 
 button {
     width: 100%;
@@ -118,7 +155,7 @@ button {
     border: none;
     border-radius: 0.5rem;
     margin-bottom: 0.7rem;
-    color: var(--cream-color);
+    color: #000000;
     background-color: var(--gold-color);
     font-size: 1.7rem;
 }

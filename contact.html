@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -141,30 +141,65 @@
                             <div class="row marMainRow">
                               <h1 class="form-title">Escríbenos</h1>
 
-                              <form action="#" method="post">
+                              <form action="#" method="post" class="form" id="form">
+                                
+                                <!-- grupo nombre -->
+                                <div class="form-group name form-group-valid" id="user-group">
+                                  <label for="name" class="form-label"><b> Nombre completo</b></label> <br>   
+                                    <input id="name" class="form-input" type="text" title="Escribe su nombre completo" name="name" placeholder="Tomás Moreno"/>                         
+                                    <p class="form-input-error">
+                                      Debe completar el campo con su nombre
+                                    </p>
+                                </div>
 
-                                <div class="form-group name">
-                                  <label for="name"><b> Nombre completo</b></label> <br>
-                                  <input type="text" title="Escribe su nombre completo" name="name" placeholder="Tomás Moreno"required   oninvalid="this.setCustomValidity('Debe escribir su nombre')"/>
-                              </div>
-              
-                              <div class="form-group email">
-                                  <label for="email"><b> Correo electrónico</b></label> <br>
-                                  <input type="text" name="email" placeholder="tomas.morenovicente@iesjacaranda.es" required/>
+                                <!-- grupo email -->
+                                <div class="form-group email" id="email-group">
+                                  <label for="email" class="form-label"><b> Correo electrónico</b></label> <br>
+                                  <div class="form-group-input">
+                                    <input id="email" class="form-input" type="text" title="Escribe su correo electrónico" name="email" placeholder="tomas.morenovicente@iesjacaranda.es" />
+                                                          
+                                  </div>
+                                  <p class="form-input-error">
+                                    Debe insertar su correo electronico
+                                  </p>
                                 </div>
                                 
-                                <div class="form-group subject">
-                                  <label for="subject"><b> Asunto</b></label> <br>
-                                  <input type="text" name="subject" placeholder="Escribe el asunto" required/>
+                                <!-- grupo asunto -->
+                                <div class="form-group subject" id="subject-group">
+                                  <label for="subject" class="form-label"><b> Asunto</b></label> <br>
+                                  <div class="form-group-input">
+                                    <input id="subject" type="text" title="Escribe el asunto del mensaje" name="subject" placeholder="Escribe el asunto" />
+                                                             
+                                  </div>
+                                  <p class="form-input-error">
+                                    Debe insertar el asunto
+                                  </p>
                                 </div>
                                 
-                                <div class="form-group message">
-                                  <label for="message"><b> Mensaje</b></label><br>
-                                  <textarea name="message" placeholder="Escribe tu mensaje" rows="5" required></textarea>
+                                <!-- grupo mensaje -->
+                                <div class="form-group message" id="message-group">
+                                  <label for="message" class="form-label"><b> Mensaje</b></label><br>
+                                  <div class="form-group-input">
+                                    <textarea id="message" name="message" title="Escribe el mensaje"  placeholder="Escribe tu mensaje" rows="5"></textarea>
+                                                                        
+                                  </div>
+                                  <p class="form-input-error">
+                                    Debe insertar un mensaje
+                                  </p>
                                 </div>
-                                
-                                <button type="submit" class="form-submit"><b> Enviar</b> </button> <!--posible boton de borrar-->
+                              
+                                <div class="form-message" id="form-message">
+                                  <p>Porfavor rellene el formulario correctamente</p>
+                                </div>
+
+
+                                <button id="submit" type="submit" title="pulsa para enviar el mensaje" class="form-submit"><b> Enviar</b> </button> 
+                                  <p class="form-message-success" id="form-message-success">
+                                    Formulario enviado con exito
+                                  </p>
+
                               </form>
+
                             </div>
                           </div>
 
@@ -223,7 +258,8 @@
       <!-- END FOOTER -->
 
        <!-- SCRIPT JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-
+        <script src="js/contact.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/0a5e42de01.js" crossorigin="anonymous"></script>
     </body>
 </html>
