@@ -1,0 +1,59 @@
+
+                              <form action="#" method="post" class="form" id="form">
+                                
+                                <!-- grupo nombre -->
+                                <div class="form-group name form-group-valid" id="user-group">
+                                  <label for="name" class="form-label"><b> Nombre completo</b></label> <br>   
+                                    <input id="name" class="form-input" type="text" title="Escribe su nombre completo" name="name" placeholder="Tomás Moreno"/>                         
+                                    <p class="form-input-error">
+                                      Debe completar el campo con su nombre
+                                    </p>
+                                </div>
+
+                                <!-- grupo email -->
+                                <div class="form-group email" id="email-group">
+                                  <label for="email" class="form-label"><b> Correo electrónico</b></label> <br>
+                                  <div class="form-group-input">
+                                    <input id="email" class="form-input" type="text" title="Escribe su correo electrónico" name="email" placeholder="tomas.morenovicente@iesjacaranda.es" />
+                                                          
+                                  </div>
+                                  <p class="form-input-error">
+                                    Debe insertar su correo electronico
+                                  </p>
+                                </div>
+                                
+                                <!-- grupo asunto -->
+                                <div class="form-group subject" id="subject-group">
+                                  <label for="subject" class="form-label"><b> Asunto</b></label> <br>
+                                  <div class="form-group-input">
+                                    <input id="subject" type="text" title="Escribe el asunto del mensaje" name="subject" placeholder="Escribe el asunto" />
+                                                             
+                                  </div>
+                                  <p class="form-input-error">
+                                    Debe insertar el asunto
+                                  </p>
+                                </div>
+                                
+                                <!-- grupo mensaje -->
+                                <div class="form-group message" id="message-group">
+                                  <label for="message" class="form-label"><b> Mensaje</b></label><br>
+                                  <div class="form-group-input">
+                                    <textarea id="message" name="message" title="Escribe el mensaje"  placeholder="Escribe tu mensaje" rows="5"></textarea>
+                                                                        
+                                  </div>
+                                  <p class="form-input-error">
+                                    Debe insertar un mensaje
+                                  </p>
+                                </div>
+                              
+                                <div class="form-message" id="form-message">
+                                  <p>Porfavor rellene el formulario correctamente</p>
+                                </div>
+
+
+                                <button id="submit" type="submit" title="pulsa para enviar el mensaje" class="form-submit"><b> Enviar</b> </button> 
+                                  <p class="form-message-success" id="form-message-success">
+                                    Formulario enviado con exito
+                                  </p>
+
+                              </form>
